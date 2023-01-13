@@ -7,7 +7,7 @@ namespace Guide
     /// </summary>
     public class GuideData
     {
-        public int GuideId;
+        public string GuideId;
         public GuideType GuideType;
         public int GuideGroupId;
         public object Param1;
@@ -36,7 +36,7 @@ namespace Guide
 
         public void Reset()
         {
-            this.GuideId = 0;
+            this.GuideId = "";
             this.GuideType = GuideType.None;
             this.GuideGroupId = 0;
             this.Param1 = null;

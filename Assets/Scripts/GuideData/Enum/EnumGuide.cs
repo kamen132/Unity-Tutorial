@@ -11,4 +11,11 @@
         TopLeft = 6,
         BottomLeft = 7,
     }
+
+    public enum GuideState
+    {
+        NotStart,
+        Running,
+        End
+    }
 }
